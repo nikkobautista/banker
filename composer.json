@@ -1,0 +1,24 @@
+{
+    "name": "nikkobautista/banker",
+    "description": "Bank transaction parsing and downloading",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikko Bautista",
+            "email": "nikko@nikkobautista.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0@dev",
+        "paquettg/php-html-parser": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Banker\\": "src/"
+        }
+    }
+}
